@@ -1,4 +1,4 @@
-# Thực hành phân tích Dữ liệu với một số Dataset
+# Thực hành Khai phá Dữ liệu với một số Dataset
 **Lưu ý**: để thuận tiện cho việc xem biểu đồ, hãy để github ở chế độ light mode.
 
 # Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha
