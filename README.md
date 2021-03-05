@@ -1,9 +1,9 @@
 # Thực hành Khai phá Dữ liệu với một số Dataset
 ## Mục lục
 - [Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha](#d--li-u-v--gi--v--t-u-cao-t-c---t-y-ban-nha)
-  * [Giới thiệu](#gi-i-thi-u)
-  * [Các phân tích & minh họa](#c-c-ph-n-t-ch---minh-h-a)
-    + [1. Thống kê những ngày có nhiều lượt khởi hành nhất](#1-th-ng-k--nh-ng-ng-y-c--nhi-u-l--t-kh-i-h-nh-nh-t)
+  * [Giới thiệu](#Giới thiệu)
+  * [Các phân tích & minh họa](#Các phân tích & minh họa)
+    + [1. Thống kê những ngày có nhiều lượt khởi hành nhất](#1. Thống kê những ngày có nhiều lượt khởi hành nhất)
     + [2. Thống kê các chuyến tàu khởi hành và kết thúc cùng ngày và khác ngày](#2-th-ng-k--c-c-chuy-n-t-u-kh-i-h-nh-v--k-t-th-c-c-ng-ng-y-v--kh-c-ng-y)
     + [3. Thống kê giờ khởi hành của các chuyến tàu](#3-th-ng-k--gi--kh-i-h-nh-c-a-c-c-chuy-n-t-u)
     + [4. Thống kê giờ kết thúc của các chuyến tàu](#4-th-ng-k--gi--k-t-th-c-c-a-c-c-chuy-n-t-u)
