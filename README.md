@@ -11,14 +11,17 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
 ## Các phân tích & minh họa 
 
 ### 1. Thống kê những ngày có nhiều lượt khởi hành nhất 
+Các ngày từ ngày 13 đến 17 tháng 4 có lượt khởi hành nhiều nhất, do những ngày này là ngày lễ thứ 5 thánh và thứ 6 tuần thánh của người Tây Ban Nha.
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/50%20ng%C3%A0y%20c%C3%B3%20nhi%E1%BB%81u%20l%C6%B0%E1%BB%A3t%20kh%E1%BB%9Fi%20h%C3%A0nh%20nh%E1%BA%A5t.png'>
 
 ### 2. Thống kê các chuyến tàu khởi hành và kết thúc cùng ngày và khác ngày
+Hầu hết các chuyến tàu bắt đầu và kết thúc trong ngày, chỉ có hơn 1% chuyến tàu là khác ngày.
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/%25%20c%C3%A1c%20chuy%E1%BA%BFn%20t%C3%A0u%20kh%E1%BB%9Fi%20h%C3%A0nh%20v%C3%A0%20k%E1%BA%BFt%20th%C3%BAc%20c%C3%B9ng%20ng%C3%A0y.png'>
 
 ### 3. Thống kê giờ khởi hành của các chuyến tàu
+Hầu hết các chuyến tàu khởi hành từ 6AM đến 9AM hoặc từ 2PM đến 7PM. Tầm giờ đó là giờ cao điểm.
 
 **Biểu đồ cột**
 
@@ -31,6 +34,7 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
 
 
 ### 4. Thống kê giờ kết thúc của các chuyến tàu
+Hầu hết các chuyến tàu kết thúc từ 9AM đến 11AM hoặc từ 17PM đến 22PM.
 
 **Biểu đồ cột**
 
@@ -43,22 +47,25 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
 
 
 ### 5. Thống kê số chuyến tàu của các tháng
+Hầu hết các chuyến tàu nằm ở tháng 3
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Th%E1%BB%91ng%20k%C3%AA%20s%E1%BB%91%20chuy%E1%BA%BFn%20t%C3%A0u%20c%E1%BB%A7a%20c%C3%A1c%20th%C3%A1ng.png'>
 
 
 ### 6. Thống kê thời gian di chuyển của các chuyến tàu
+Đa số các chuyến tàu có thời gian di chuyển ở khoảng 150 - 170 phút, đây là thời gian trung bình để đi từ Madrid tới Barcelona hoặc từ Madrid tới Seville.
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Th%E1%BB%91ng%20k%C3%AA%20th%E1%BB%9Di%20gian%20c%C3%A1c%20chuy%E1%BA%BFn%20t%C3%A0u%20(d%E1%BB%B1a%20tr%C3%AAn%2040k%20quan%20s%C3%A1t).png'>
 
 
 ### 7. Thống kê lượt tàu chạy của các ngày trong tuần
+Ngày thứ 6 và thứ 7 cuối tuần có lượt tàu chạy nhiều hơn những ngày còn lại. 
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Th%E1%BB%91ng%20k%C3%AA%20l%C6%B0%E1%BB%A3t%20t%C3%A0u%20c%E1%BB%A7a%20c%C3%A1c%20ng%C3%A0y%20trong%20tu%E1%BA%A7n.png'>
 
 
 ### 8. Lộ trình
-Trong dataset có tất cả 62 lộ trình. 
+Trong dataset có tất cả 62 lộ trình. Hầu hết các lộ trình đều xuất phát từ Madrid và chọn Madrid làm điểm đến. Tiếp đến là hai thành phố Barcelona, Vanlencia và Seville. 
 
 **Biểu đồ tròn thống kê top 20 lộ trình được lựa chọn nhiều nhất theo tỉ lệ phần trăm**
 
@@ -81,8 +88,9 @@ Trong dataset có tất cả 62 lộ trình.
 + **LD,AVE-MD,AVE-LD,LD-MD,MD-AVE,MD,LD-AVE** là các chuyến tàu LD-MD là Long Distance/ Medium Distance
 
 **Phân tích các loại tàu cao tốc bằng biểu đồ tròn**
+Đa số người dân sử dụng loại tàu AVE. Đây là loại tàu hoạt động trên hệ thống đường ray nối các thành phố lớn (Madrid, Barcelona, Vallencia,...) 
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/ph%C3%A2n%20t%C3%ADch%20lo%E1%BA%A1i%20t%C3%A0u%20cao%20t%E1%BB%91c%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Ph%C3%A2n%20t%C3%ADch%20c%C3%A1c%20lo%E1%BA%A1i%20t%C3%A0u%20cao%20t%E1%BB%91c%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
 
 
 ### 10. Phân tích các hạng vé
@@ -92,8 +100,9 @@ Các chuyến tàu ở Tây Ban Nha thường được chia làm 2 hạng vé:
 + **Preferente**: hạng sang
 
 **Phân tích các hạng vé bằng biểu đồ tròn**
+Hơn 80% hành khách chọn vé hạng bình dân, và chỉ 5% chọn vé hạng sang.
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/ph%C3%A2n%20t%C3%ADch%20h%E1%BA%A1ng%20v%C3%A9%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Ph%C3%A2n%20t%C3%ADch%20c%C3%A1c%20h%E1%BA%A1ng%20v%C3%A9%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
 
 
 ### 11. Phân tích loại vé
@@ -103,14 +112,15 @@ Các chuyến tàu ở Tây Ban Nha thường được chia làm 2 hạng vé:
 + **Promo +**: Các chương trình khuyến mại này dựa trên hệ thống giá vé động với chiết khấu lớn với các chuyến tàu AVE và Larga Distancia (Đường dài) trên các hành trình nội địa, được thiết lập tùy thuộc vào chuyến tàu, ngày đi và lượt mua trước. Nhưng không hạ thấp bất kỳ tiêu chuẩn chất lượng nào.
 
 **Phân tích các loại vé bằng biểu đồ tròn**
+Hơn 50% hành khách chọn vé loại Promo, 22% chọn Flexible.
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/ph%C3%A2n%20t%C3%ADch%20lo%E1%BA%A1i%20v%C3%A9%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Ph%C3%A2n%20t%C3%ADch%20c%C3%A1c%20lo%E1%BA%A1i%20v%C3%A9%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
 
 
 ### 12. Phân tích Lộ trình với các yếu tố khác
 
 #### Phân tích Lộ trình với Loại tàu cao tốc
-Biểu đồ thống kê các chuyến đi với Loại tàu cao tốc dựa trên Lộ trình
+Biểu đồ thống kê các chuyến đi với Loại tàu cao tốc dựa trên Lộ trình:
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Bi%E1%BB%83u%20%C4%91%E1%BB%93%20th%E1%BB%91ng%20k%C3%AA%20c%C3%A1c%20chuy%E1%BA%BFn%20%C4%91i%20v%E1%BB%9Bi%20Lo%E1%BA%A1i%20t%C3%A0u%20cao%20t%E1%BB%91c%20d%E1%BB%B1a%20tr%C3%AAn%20L%E1%BB%99%20tr%C3%ACnh.png'>
 
@@ -141,4 +151,5 @@ Biểu đồ thời gian di chuyển trung bình dựa theo Lộ trình
 
 ### 15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc
 Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tốc
+
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png'>
