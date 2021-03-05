@@ -115,6 +115,7 @@ Trong dataset có tất cả 62 lộ trình. Hầu hết các lộ trình đều
 + **LD,AVE-MD,AVE-LD,LD-MD,MD-AVE,MD,LD-AVE** là các chuyến tàu LD-MD là Long Distance/ Medium Distance
 
 **Phân tích các loại tàu cao tốc bằng biểu đồ tròn**
+
 Đa số người dân sử dụng loại tàu AVE. Đây là loại tàu hoạt động trên hệ thống đường ray nối các thành phố lớn (Madrid, Barcelona, Vallencia,...) 
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Ph%C3%A2n%20t%C3%ADch%20c%C3%A1c%20lo%E1%BA%A1i%20t%C3%A0u%20cao%20t%E1%BB%91c%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
@@ -127,6 +128,7 @@ Các chuyến tàu ở Tây Ban Nha thường được chia làm 2 hạng vé:
 + **Preferente**: hạng sang
 
 **Phân tích các hạng vé bằng biểu đồ tròn**
+
 Hơn 80% hành khách chọn vé hạng bình dân, và chỉ 5% chọn vé hạng sang.
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Ph%C3%A2n%20t%C3%ADch%20c%C3%A1c%20h%E1%BA%A1ng%20v%C3%A9%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
@@ -139,6 +141,7 @@ Hơn 80% hành khách chọn vé hạng bình dân, và chỉ 5% chọn vé hạ
 + **Promo +**: Các chương trình khuyến mại này dựa trên hệ thống giá vé động với chiết khấu lớn với các chuyến tàu AVE và Larga Distancia (Đường dài) trên các hành trình nội địa, được thiết lập tùy thuộc vào chuyến tàu, ngày đi và lượt mua trước. Nhưng không hạ thấp bất kỳ tiêu chuẩn chất lượng nào.
 
 **Phân tích các loại vé bằng biểu đồ tròn**
+
 Hơn 50% hành khách chọn vé loại Promo, 22% chọn Flexible.
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/Ph%C3%A2n%20t%C3%ADch%20c%C3%A1c%20lo%E1%BA%A1i%20v%C3%A9%20b%E1%BA%B1ng%20bi%E1%BB%83u%20%C4%91%E1%BB%93%20tr%C3%B2n.png'>
