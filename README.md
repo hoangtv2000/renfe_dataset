@@ -1,8 +1,8 @@
 # Thực hành Khai phá Dữ liệu
 ## Mục lục
 - [Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha](#dữ-liệu-về-giá-vé-tàu-cao-tốc-ở-tây-ban-nha)
-  * [Giới thiệu](#giới-thiệu)
-  * [Các phân tích & minh họa](#các-phân-tích--minh-họa)
+  * [I. Giới thiệu](#giới-thiệu)
+  * [II. Các phân tích & minh họa](#các-phân-tích--minh-họa)
     + [1. Thống kê những ngày có nhiều lượt khởi hành nhất](#1-thống-kê-những-ngày-có-nhiều-lượt-khởi-hành-nhất)
     + [2. Thống kê các chuyến tàu khởi hành và kết thúc cùng ngày và khác ngày](#2-thống-kê-các-chuyến-tàu-khởi-hành-và-kết-thúc-cùng-ngày-và-khác-ngày)
     + [3. Thống kê giờ khởi hành của các chuyến tàu](#3-thống-kê-giờ-khởi-hành-của-các-chuyến-tàu)
@@ -24,19 +24,19 @@
       - [Biểu đồ trung bình giá vé theo Loại vé](#biểu-đồ-trung-bình-giá-vé-theo-loại-vé)
     + [14. Phân tích thời gian di chuyển trung bình dựa theo Lộ trình](#14-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-lộ-trình)
     + [15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc](#15-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-loại-tàu-cao-tốc)
-  * [Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé](#các-phân-tích--minh-họa)
+  * [III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé](#các-phân-tích--minh-họa)
 
 **Lưu ý**: để thuận tiện cho việc xem biểu đồ, hãy để github ở chế độ light mode.
 
 
 # Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha
 
-## Giới thiệu
+## I. Giới thiệu
 Đây là bộ dữ liệu về các chuyến đi của Hệ thống tàu cao tốc Tây Ban Nha của công ty Renfe. Trong bộ dữ liệu này gồm các thông tin di chuyển của hành khách từ ngày 11/04/2019 đến ngày 7/10/2020. Các thông tin của mỗi chuyến đi gồm nơi khởi hành, nơi đến, hạng vé, chỗ ngồi, số ghế trống... Chúng ta hãy cùng phân tích một cách trực quan bộ dữ liệu này bằng EDA(Exploratory data analysis) để tìm hiểu hành vi tiêu dùng của họ. 
 
 Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurusteam/spanish-high-speed-rail-system-ticket-pricing)
 
-## Các phân tích & minh họa 
+## II. Các phân tích & minh họa 
 
 ### 1. Thống kê những ngày có nhiều lượt khởi hành nhất 
 Các ngày từ ngày 13 đến 17 tháng 4 có lượt khởi hành nhiều nhất, do những ngày này là ngày lễ thứ 5 thánh và thứ 6 tuần thánh của người Tây Ban Nha.
@@ -185,4 +185,4 @@ Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tố
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png'>
 
-## Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
+## III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
