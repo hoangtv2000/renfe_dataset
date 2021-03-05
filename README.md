@@ -1,4 +1,31 @@
 # Thực hành Khai phá Dữ liệu với một số Dataset
+## Mục lục
+- [Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha](#d--li-u-v--gi--v--t-u-cao-t-c---t-y-ban-nha)
+  * [Giới thiệu](#gi-i-thi-u)
+  * [Các phân tích & minh họa](#c-c-ph-n-t-ch---minh-h-a)
+    + [1. Thống kê những ngày có nhiều lượt khởi hành nhất](#1-th-ng-k--nh-ng-ng-y-c--nhi-u-l--t-kh-i-h-nh-nh-t)
+    + [2. Thống kê các chuyến tàu khởi hành và kết thúc cùng ngày và khác ngày](#2-th-ng-k--c-c-chuy-n-t-u-kh-i-h-nh-v--k-t-th-c-c-ng-ng-y-v--kh-c-ng-y)
+    + [3. Thống kê giờ khởi hành của các chuyến tàu](#3-th-ng-k--gi--kh-i-h-nh-c-a-c-c-chuy-n-t-u)
+    + [4. Thống kê giờ kết thúc của các chuyến tàu](#4-th-ng-k--gi--k-t-th-c-c-a-c-c-chuy-n-t-u)
+    + [5. Thống kê số chuyến tàu của các tháng](#5-th-ng-k--s--chuy-n-t-u-c-a-c-c-th-ng)
+    + [6. Thống kê thời gian di chuyển của các chuyến tàu](#6-th-ng-k--th-i-gian-di-chuy-n-c-a-c-c-chuy-n-t-u)
+    + [7. Thống kê lượt tàu chạy của các ngày trong tuần](#7-th-ng-k--l--t-t-u-ch-y-c-a-c-c-ng-y-trong-tu-n)
+    + [8. Lộ trình](#8-l--tr-nh)
+    + [9. Phân tích các loại tàu cao tốc](#9-ph-n-t-ch-c-c-lo-i-t-u-cao-t-c)
+    + [10. Phân tích các hạng vé](#10-ph-n-t-ch-c-c-h-ng-v-)
+    + [11. Phân tích loại vé](#11-ph-n-t-ch-lo-i-v-)
+    + [12. Phân tích Lộ trình với các yếu tố khác](#12-ph-n-t-ch-l--tr-nh-v-i-c-c-y-u-t--kh-c)
+      - [Phân tích Lộ trình với Loại tàu cao tốc](#ph-n-t-ch-l--tr-nh-v-i-lo-i-t-u-cao-t-c)
+      - [Phân tích Lộ trình với Hạng vé](#ph-n-t-ch-l--tr-nh-v-i-h-ng-v-)
+    + [13. Phân tích giá vé trung bình dựa trên Hạng vé, Loại tàu cao tốc, Lộ trình và Loại vé](#13-ph-n-t-ch-gi--v--trung-b-nh-d-a-tr-n-h-ng-v---lo-i-t-u-cao-t-c--l--tr-nh-v--lo-i-v-)
+      - [Biểu đồ trung bình giá vé theo Hạng vé](#bi-u----trung-b-nh-gi--v--theo-h-ng-v-)
+      - [Biểu đồ trung bình giá vé theo Loại tàu cao tốc](#bi-u----trung-b-nh-gi--v--theo-lo-i-t-u-cao-t-c)
+      - [Biểu đồ trung bình giá vé theo Lộ trình](#bi-u----trung-b-nh-gi--v--theo-l--tr-nh)
+      - [Biểu đồ trung bình giá vé theo Loại vé](#bi-u----trung-b-nh-gi--v--theo-lo-i-v-)
+    + [14. Phân tích thời gian di chuyển trung bình dựa theo Lộ trình](#14-ph-n-t-ch-th-i-gian-di-chuy-n-trung-b-nh-d-a-theo-l--tr-nh)
+    + [15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc](#15-ph-n-t-ch-th-i-gian-di-chuy-n-trung-b-nh-d-a-theo-lo-i-t-u-cao-t-c)
+
+
 **Lưu ý**: để thuận tiện cho việc xem biểu đồ, hãy để github ở chế độ light mode.
 
 # Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha
