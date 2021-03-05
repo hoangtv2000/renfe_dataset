@@ -1,8 +1,8 @@
 # Thực hành Khai phá Dữ liệu
 ## Mục lục
 - [Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha](#dữ-liệu-về-giá-vé-tàu-cao-tốc-ở-tây-ban-nha)
-  * [I. Giới thiệu](#giới-thiệu)
-  * [II. Các phân tích & minh họa](#các-phân-tích--minh-họa)
+  * [I. Giới thiệu](#i-giới-thiệu)
+  * [II. Các phân tích & minh họa](#ii-các-phân-tích--minh-họa)
     + [1. Thống kê những ngày có nhiều lượt khởi hành nhất](#1-thống-kê-những-ngày-có-nhiều-lượt-khởi-hành-nhất)
     + [2. Thống kê các chuyến tàu khởi hành và kết thúc cùng ngày và khác ngày](#2-thống-kê-các-chuyến-tàu-khởi-hành-và-kết-thúc-cùng-ngày-và-khác-ngày)
     + [3. Thống kê giờ khởi hành của các chuyến tàu](#3-thống-kê-giờ-khởi-hành-của-các-chuyến-tàu)
@@ -24,7 +24,7 @@
       - [Biểu đồ trung bình giá vé theo Loại vé](#biểu-đồ-trung-bình-giá-vé-theo-loại-vé)
     + [14. Phân tích thời gian di chuyển trung bình dựa theo Lộ trình](#14-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-lộ-trình)
     + [15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc](#15-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-loại-tàu-cao-tốc)
-  * [III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé](#các-phân-tích--minh-họa)
+  * [III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé](#iii-xử-lý-dữ-liệu-và-xây-dựng-mô-hình-dự-đoán-giá-vé)
 
 **Lưu ý**: để thuận tiện cho việc xem biểu đồ, hãy để github ở chế độ light mode.
 
@@ -184,5 +184,6 @@ Biểu đồ thời gian di chuyển trung bình dựa theo Lộ trình
 Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tốc
 
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png'>
+
 
 ## III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
