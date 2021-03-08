@@ -26,6 +26,10 @@
     + [14. Phân tích thời gian di chuyển trung bình dựa theo Lộ trình](#14-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-lộ-trình)
     + [15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc](#15-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-loại-tàu-cao-tốc)
   * [III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé](#iii-xử-lý-dữ-liệu-và-xây-dựng-mô-hình-dự-đoán-giá-vé)
+    + [1. Xử lý dữ liệu ](#1-xử-lý-dữ-liệu) 
+    + [2. Xây dựng mô hình SVRregression](#2-xây-dựng-mô-hình-svrregression) 
+    + [3. Xây dựng mô hình Gradient boosting by Random forest (GBRF)](#3-xây-dựng-mô-hình-gradient-boosting-by-random-forest-gbrf)
+    + [Kết luận](#kết-luận)
 
 **Lưu ý**: để thuận tiện cho việc xem biểu đồ, hãy để github ở chế độ light mode.
 
