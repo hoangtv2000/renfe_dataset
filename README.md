@@ -176,14 +176,12 @@ Biểu đồ thống kê các chuyến đi với Hạng vé dựa trên Lộ tr�
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter3.png'>
 
 ### 14. Phân tích thời gian di chuyển trung bình dựa theo Lộ trình
-Biểu đồ thời gian di chuyển trung bình dựa theo Lộ trình
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter4.png'>
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter4.png' alt = 'Biểu đồ thời gian di chuyển trung bình dựa theo Lộ trình'>
 
 ### 15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc
-Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tốc
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png'>
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png' alt = 'Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tốc'>
 
 
 ## III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
@@ -219,13 +217,21 @@ Kết quả thu được trên tập test với độ chính xác **70.3%**.
 ### 3. Xây dựng mô hình Gradient boosting by Random forest
 **Giới thiệu về Gradient boosting by Random forest** 
 
-Gradient boosting by Random forest là thuật toán học quy dựa trên việc xây dựng và tối ưu các weak learners, trong trường hợp này, chúng là các Decision tree. Cho *N* decision tree được xây dựng bởi một tập subset-feature ngẫu nhiên. Các leaf của tree là các giá trị dự đoán. Thuật toán sẽ tối ưu bằng cách đưa dữ liệu vào các tree một cách tuần tự và tính residual (residual có thể được tính bằng MSE hoặc logarithmic loss). 
+Gradient boosting by Random forest là thuật toán học có giám sát dựa trên việc xây dựng và tối ưu các weak learners, trong trường hợp này, chúng là các Decision tree. Cho *N* decision tree được xây dựng bởi một tập subset-feature ngẫu nhiên. Các leaf của tree là các giá trị dự đoán. Thuật toán sẽ tối ưu bằng cách đưa dữ liệu vào các tree một cách tuần tự và tính residual (residual có thể được tính bằng MSE hoặc logarithmic loss). 
 
 Ta gọi kết quả dự đoán khi dữ liệu đi qua tree thứ *k* = **trung bình giá trị thực** + **learning_rate**x(&sum;<sub>i=1</sub><sup>k</sup> residual của tree thứ *i*). 
 
 Từ kết quả này, tree thứ *k+1* sẽ học cách tối ưu dựa trên các tree từ *k* trở về trước.
 
 Kết quả tối ưu cuối cùng là kết quả đi qua *N* tree.
+
+**Tiến trình học của Random forest**
+
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/1%20swdff6XNZiwzKdtu3pfN9A.png' alt="Tiến trình học của Random forest" width="600" height="300">
+
+**Tiến trình học của Gradient boosting by Random forest**
+
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/1%20X1sm0JVpRS2n3Hs2TTmRFQ.png' alt="Tiến trình học của Gradient boosting by Random forest" width="600" height="300">
 
 **Train SVR**
 
