@@ -2,7 +2,7 @@
 
 # Dữ liệu về giá vé tàu cao tốc ở Tây Ban Nha
 
-## I. Giới thiệu
+## Giới thiệu
 Đây là bộ dữ liệu về các chuyến đi của Hệ thống tàu cao tốc Tây Ban Nha của công ty Renfe. Trong bộ dữ liệu này gồm các thông tin di chuyển của hành khách từ ngày 11/04/2019 đến ngày 7/10/2020. Các thông tin của mỗi chuyến đi gồm nơi khởi hành, nơi đến, hạng vé, chỗ ngồi, số ghế trống... Chúng ta hãy cùng phân tích một cách trực quan bộ dữ liệu này bằng EDA(Exploratory data analysis) để tìm hiểu hành vi tiêu dùng của họ. 
 
 Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurusteam/spanish-high-speed-rail-system-ticket-pricing)
@@ -12,7 +12,6 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
 + [Xây dựng mô hình dự đoán giá vé tàu cao tốc Renfe ở Tây Ban Nha](https://github.com/hoangtv2000/data-mining/blob/main/X%C3%A2y%20d%E1%BB%B1ng%20m%C3%B4%20h%C3%ACnh%20d%E1%BB%B1%20%C4%91o%C3%A1n%20gi%C3%A1%20v%C3%A9%20t%C3%A0u%20cao%20t%E1%BB%91c%20Renfe%20%E1%BB%9F%20T%C3%A2y%20Ban%20Nha.ipynb)
 
 ## Mục lục
-  * [Giới thiệu](#i-giới-thiệu)
   * [Các phân tích & minh họa](#các-phân-tích--minh-họa)
     + [1. Thống kê những ngày có nhiều lượt khởi hành nhất](#1-thống-kê-những-ngày-có-nhiều-lượt-khởi-hành-nhất)
     + [2. Thống kê các chuyến tàu khởi hành và kết thúc cùng ngày và khác ngày](#2-thống-kê-các-chuyến-tàu-khởi-hành-và-kết-thúc-cùng-ngày-và-khác-ngày)
@@ -43,7 +42,7 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
 
 
 
-## II. Các phân tích & minh họa 
+## Các phân tích & minh họa 
 **Lưu ý**: để thuận tiện cho việc xem biểu đồ, hãy để github ở chế độ light mode.
 
 ### 1. Thống kê những ngày có nhiều lượt khởi hành nhất 
@@ -194,7 +193,7 @@ Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tố
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png'>
 
 
-## III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
+## Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
 
 ### 1. Xử lý dữ liệu 
 
