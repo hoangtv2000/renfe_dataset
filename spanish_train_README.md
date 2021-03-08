@@ -12,8 +12,8 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
 + [Xây dựng mô hình dự đoán giá vé tàu cao tốc Renfe ở Tây Ban Nha](https://github.com/hoangtv2000/data-mining/blob/main/X%C3%A2y%20d%E1%BB%B1ng%20m%C3%B4%20h%C3%ACnh%20d%E1%BB%B1%20%C4%91o%C3%A1n%20gi%C3%A1%20v%C3%A9%20t%C3%A0u%20cao%20t%E1%BB%91c%20Renfe%20%E1%BB%9F%20T%C3%A2y%20Ban%20Nha.ipynb)
 
 ## Mục lục
-  * [I. Giới thiệu](#i-giới-thiệu)
-  * [II. Các phân tích & minh họa](#ii-các-phân-tích--minh-họa)
+  * [Giới thiệu](#i-giới-thiệu)
+  * [Các phân tích & minh họa](#các-phân-tích--minh-họa)
     + [1. Thống kê những ngày có nhiều lượt khởi hành nhất](#1-thống-kê-những-ngày-có-nhiều-lượt-khởi-hành-nhất)
     + [2. Thống kê các chuyến tàu khởi hành và kết thúc cùng ngày và khác ngày](#2-thống-kê-các-chuyến-tàu-khởi-hành-và-kết-thúc-cùng-ngày-và-khác-ngày)
     + [3. Thống kê giờ khởi hành của các chuyến tàu](#3-thống-kê-giờ-khởi-hành-của-các-chuyến-tàu)
@@ -35,7 +35,7 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
       - [Biểu đồ trung bình giá vé theo Loại vé](#biểu-đồ-trung-bình-giá-vé-theo-loại-vé)
     + [14. Phân tích thời gian di chuyển trung bình dựa theo Lộ trình](#14-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-lộ-trình)
     + [15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc](#15-phân-tích-thời-gian-di-chuyển-trung-bình-dựa-theo-loại-tàu-cao-tốc)
-  * [III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé](#iii-xử-lý-dữ-liệu-và-xây-dựng-mô-hình-dự-đoán-giá-vé)
+  * [Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé](#xử-lý-dữ-liệu-và-xây-dựng-mô-hình-dự-đoán-giá-vé)
     + [1. Xử lý dữ liệu ](#1-xử-lý-dữ-liệu) 
     + [2. Xây dựng mô hình SVRregression](#2-xây-dựng-mô-hình-svrregression) 
     + [3. Xây dựng mô hình Gradient boosting by Random forest (GBRF)](#3-xây-dựng-mô-hình-gradient-boosting-by-random-forest-gbrf)
