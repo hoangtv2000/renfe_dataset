@@ -9,7 +9,7 @@ Dataset: [Spanish Rail Tickets Pricing - Renfe](https://www.kaggle.com/thegurust
 
 **Notebooks**:
 + [Phân tích dữ liệu Tàu cao tốc Renfe ở Tây Ban Nha](https://github.com/hoangtv2000/data-mining/blob/main/Ph%C3%A2n%20t%C3%ADch%20d%E1%BB%AF%20li%E1%BB%87u%20T%C3%A0u%20cao%20t%E1%BB%91c%20Renfe%20%E1%BB%9F%20T%C3%A2y%20Ban%20Nha.ipynb)
-+ [Xây dựng mô hình dự đoán giá vé tàu cao tốc Renfe ở Tây Ban Nha.ipynb](https://github.com/hoangtv2000/data-mining/blob/main/X%C3%A2y%20d%E1%BB%B1ng%20m%C3%B4%20h%C3%ACnh%20d%E1%BB%B1%20%C4%91o%C3%A1n%20gi%C3%A1%20v%C3%A9%20t%C3%A0u%20cao%20t%E1%BB%91c%20Renfe%20%E1%BB%9F%20T%C3%A2y%20Ban%20Nha.ipynb)
++ [Xây dựng mô hình dự đoán giá vé tàu cao tốc Renfe ở Tây Ban Nha](https://github.com/hoangtv2000/data-mining/blob/main/X%C3%A2y%20d%E1%BB%B1ng%20m%C3%B4%20h%C3%ACnh%20d%E1%BB%B1%20%C4%91o%C3%A1n%20gi%C3%A1%20v%C3%A9%20t%C3%A0u%20cao%20t%E1%BB%91c%20Renfe%20%E1%BB%9F%20T%C3%A2y%20Ban%20Nha.ipynb)
 
 ## Mục lục
   * [I. Giới thiệu](#i-giới-thiệu)
