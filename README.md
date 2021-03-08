@@ -207,7 +207,7 @@ Công đoạn xử lý dữ liệu bao gồm:
 
 SVR là thuật toán hồi quy dựa trên ý tưởng của thuật toán phân loại SVM. Thay vì tối ưu hàm mất mát thỏa mãn với tất cả các điểm trong tập dữ liệu như các thuật toán Linear Regression. SVR cung cấp sai số dự đoán &alpha; và đảm bảo rằng hầu hết các điểm trong tập dữ liệu đều nằm trong miền **Wx+b-&alpha;** &leq; **Wx+b** &leq; **Wx+b+&alpha;** (với  Wx+b = y&#770; là giá trị dự đoán).
 
-**Train SVR**
+**Training**
 
 Dữ liệu được chia train test theo tỉ lệ 100/1. Sử dụng mô hình SVR của framework sklearn. Thời gian train là **15 phút**. 
 
@@ -216,32 +216,33 @@ Dữ liệu được chia train test theo tỉ lệ 100/1. Sử dụng mô hình
 Kết quả thu được trên tập test với độ chính xác **70.3%**.
 
 
-### 3. Xây dựng mô hình Gradient boosting by Random forest
-**Giới thiệu về Gradient boosting by Random forest** 
+### 3. Xây dựng mô hình Gradient boosting by Random forest (GBRF)
+**Giới thiệu về GBRF** 
 
-Gradient boosting by Random forest là thuật toán học có giám sát dựa trên việc xây dựng và tối ưu các weak learners, trong trường hợp này, chúng là các Decision tree. Cho *N* decision tree được xây dựng bởi một tập subset-feature ngẫu nhiên. Các leaf của tree là các giá trị dự đoán. Thuật toán sẽ tối ưu bằng cách đưa dữ liệu vào các tree một cách tuần tự và tính residual (residual có thể được tính bằng MSE hoặc logarithmic loss). 
+GBRF là thuật toán học có giám sát dựa trên việc xây dựng và tối ưu các weak learners, trong trường hợp này, chúng là các Decision tree. Cho ***N*** decision tree được xây dựng bởi một tập subset-feature ngẫu nhiên. Các leaf của tree là các giá trị dự đoán. Thuật toán sẽ tối ưu bằng cách đưa dữ liệu vào các tree một cách tuần tự và tính residual (residual có thể được tính bằng MSE hoặc logarithmic loss). 
 
 Ta gọi kết quả dự đoán khi dữ liệu đi qua tree thứ *k* = **trung bình giá trị thực** + **learning_rate**x(&sum;<sub>i=1</sub><sup>k</sup> residual của tree thứ *i*). 
 
 Từ kết quả này, tree thứ *k+1* sẽ học cách tối ưu dựa trên các tree từ *k* trở về trước.
 
-Kết quả tối ưu cuối cùng là kết quả đi qua *N* tree.
+Kết quả tối ưu cuối cùng là kết quả đi qua ***N*** tree.
 
-**Tiến trình học của Random forest**
+**Tiến trình học của Random forest**  
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/1%20swdff6XNZiwzKdtu3pfN9A.png' alt="Tiến trình học của Random forest" width="600" height="300">
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/1%20swdff6XNZiwzKdtu3pfN9A.png' alt="Tiến trình học của Random forest" width="800" height="300">
 
-**Tiến trình học của Gradient boosting by Random forest**
+**Tiến trình học của GBRF**  
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/1%20X1sm0JVpRS2n3Hs2TTmRFQ.png' alt="Tiến trình học của Gradient boosting by Random forest" width="600" height="300">
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/1%20X1sm0JVpRS2n3Hs2TTmRFQ.png' alt="Tiến trình học của Gradient boosting by Random forest" width="800" height="300">
 
-**Train SVR**
+**Training**
 
-Dữ liệu được chia train test theo tỉ lệ 100/1. Sử dụng mô hình LGBMRegressor của framework lightgbm. Thời gian train là **15 phút**. Với *N* = 1000.
+Dữ liệu được chia train test theo tỉ lệ 100/1. Sử dụng mô hình LGBMRegressor của framework lightgbm. Thời gian train là **15 phút**. Với ***N*** = 1000.
 
 **Kết quả**
 
 Kết quả thu được trên tập test với độ chính xác **90%**.
 
 ### Kết luận
+Thuật toán GBRF cho kết quả tốt hơn và thời gian training nhanh hơn SVRegression khá nhiều. Tuy nhiên, để thuật toán GBRF hoạt động hiệu quả, ta cần phải tunning 2 hyperparameter: ***N*** (số lượng tree khởi tạo) và **learning_rate** (tốc độ học). Nếu ***N*** quá lớn, thời gian training và implementing sẽ rất lâu và có thể gây ra overfitting. Và vì GBRF cập nhật parameter dựa trên trung bình tích lũy, nên nó khá nhạy cảm với nhiễu.
 
