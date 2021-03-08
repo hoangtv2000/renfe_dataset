@@ -176,12 +176,14 @@ Biểu đồ thống kê các chuyến đi với Hạng vé dựa trên Lộ tr�
 <img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter3.png'>
 
 ### 14. Phân tích thời gian di chuyển trung bình dựa theo Lộ trình
+Biểu đồ thời gian di chuyển trung bình dựa theo Lộ trình
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter4.png' alt = 'Biểu đồ thời gian di chuyển trung bình dựa theo Lộ trình'>
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter4.png'>
 
 ### 15. Phân tích thời gian di chuyển trung bình dựa theo Loại tàu cao tốc
+Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tốc
 
-<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png' alt = 'Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tốc'>
+<img src = 'https://github.com/hoangtv2000/data-mining/blob/main/images-spanish-high-speed-rail/scatter5.png'>
 
 
 ## III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
