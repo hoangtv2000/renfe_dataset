@@ -188,7 +188,7 @@ Biểu đồ thời gian di chuyển trung bình dựa theo Loại tàu cao tố
 
 ## III. Xử lý dữ liệu và xây dựng mô hình dự đoán giá vé 
 
-### Xử lý dữ liệu 
+### 1. Xử lý dữ liệu 
 
 Dữ liệu đầu vào có shape là: (38753060, 14)
 
@@ -202,7 +202,7 @@ Công đoạn xử lý dữ liệu bao gồm:
 
 **Cấu hình**: PC Core Intel i5-8300H 2.3 GHz Processor, 16GB RAM, GPU Nvidia GeForge GTX 1050.
 
-### Xây dựng mô hình SVRregression
+### 2. Xây dựng mô hình SVRregression
 **Giới thiệu về SVR** 
 
 SVR là thuật toán hồi quy dựa trên ý tưởng của thuật toán phân loại SVM. Thay vì tối ưu hàm mất mát thỏa mãn với tất cả các điểm trong tập dữ liệu như các thuật toán Linear Regression. SVR cung cấp sai số dự đoán &alpha; và đảm bảo rằng hầu hết các điểm trong tập dữ liệu đều nằm trong miền **Wx+b-&alpha;** &leq; **Wx+b** &leq; **Wx+b+&alpha;** (với  Wx+b = y&#770; là giá trị dự đoán).
@@ -216,7 +216,7 @@ Dữ liệu được chia train test theo tỉ lệ 100/1. Sử dụng mô hình
 Kết quả thu được trên tập test với độ chính xác **70.3%**.
 
 
-### Xây dựng mô hình Gradient boosting by Random forest
+### 3. Xây dựng mô hình Gradient boosting by Random forest
 **Giới thiệu về Gradient boosting by Random forest** 
 
 Gradient boosting by Random forest là thuật toán học quy dựa trên việc xây dựng và tối ưu các weak learners, trong trường hợp này, chúng là các Decision tree. Cho *N* decision tree được xây dựng bởi một tập subset-feature ngẫu nhiên. Các leaf của tree là các giá trị dự đoán. Thuật toán sẽ tối ưu bằng cách đưa dữ liệu vào các tree một cách tuần tự và tính residual (residual có thể được tính bằng MSE hoặc logarithmic loss). 
