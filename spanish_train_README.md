@@ -207,7 +207,7 @@ Công đoạn xử lý dữ liệu bao gồm:
 + Quan sát và các cột chỉ có 1 loại feature hoặc các cột có feature là metadata
 + One-hot encoding các cột là categorical features, dữ liệu sau xử lý có shape là (38753060, 721)
 
-**Cấu hình**: PC Core Intel i5-8300H 2.3 GHz Processor, 16GB RAM, GPU Nvidia GeForge GTX 1050.
+**Cấu hình PC thực nghiệm**: CPU Intel core i5-8300H 2.3 GHz Processor, 16GB RAM, GPU Nvidia GeForge GTX 1050.
 
 ### 2. Xây dựng mô hình SVRregression
 **Giới thiệu về SVR** 
