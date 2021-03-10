@@ -226,7 +226,7 @@ Kết quả thu được trên tập test với độ chính xác **70.3%**.
 ### 3. Xây dựng mô hình Gradient boosting by Random forest (GBRF)
 **Giới thiệu về GBRF** 
 
-GBRF là thuật toán học có giám sát dựa trên việc xây dựng và tối ưu các weak learners, trong trường hợp này, chúng là các Decision tree. Cho ***N*** decision tree được xây dựng bởi một tập subset-feature ngẫu nhiên. Các leaf của tree là các giá trị dự đoán. Thuật toán sẽ tối ưu bằng cách đưa dữ liệu vào các tree một cách tuần tự và tính residual (residual có thể được tính bằng MSE hoặc logarithmic loss). 
+GBRF là thuật toán học có giám sát dựa trên việc xây dựng và kết hợp các weak learners thành một strong learner, trong trường hợp này, chúng là các Decision tree. Cho ***N*** decision tree được xây dựng bởi một tập subset-feature ngẫu nhiên. Các leaf của tree là các giá trị dự đoán. Thuật toán sẽ tối ưu bằng cách đưa dữ liệu vào các tree một cách tuần tự và tính residual (residual có thể được tính bằng MSE hoặc logarithmic loss giữa giá trị dự đoán và giá trị thực). 
 
 Ta gọi kết quả dự đoán khi dữ liệu đi qua tree thứ *k* = **trung bình giá trị thực** + **learning_rate**x(&sum;<sub>i=1</sub><sup>k</sup> residual của tree thứ *i*). 
 
@@ -251,5 +251,5 @@ Dữ liệu được chia train test theo tỉ lệ 100/1. Sử dụng mô hình
 Kết quả thu được trên tập test với độ chính xác **90%**.
 
 ### Kết luận
-Thuật toán GBRF cho kết quả tốt hơn và thời gian training nhanh hơn SVRegression khá nhiều. Tuy nhiên, để thuật toán GBRF hoạt động hiệu quả, ta cần phải tunning 2 hyperparameter: ***N*** (số lượng tree khởi tạo) và **learning_rate** (tốc độ học). Nếu ***N*** quá lớn, thời gian training và implementing sẽ rất lâu và có thể gây ra overfitting. Và vì GBRF cập nhật parameter dựa trên trung bình tích lũy, nên nó khá nhạy cảm với nhiễu.
+Thuật toán GBRF cho kết quả tốt hơn và thời gian training nhanh hơn SVRegression khá nhiều. Tuy nhiên, để thuật toán GBRF hoạt động hiệu quả, ta cần phải tunning 2 hyperparameter: ***N*** (số lượng tree khởi tạo) và **learning_rate** (tốc độ học). Nếu ***N*** quá lớn, thời gian training và implementing sẽ rất lâu và có thể gây ra hiện tượng overfitting.
 
